@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="contact2.css">
+    <title>Contact Us</title>
+</head>
+
+<body>
+    <form action="http://localhost:8080/contact" method="post">
+        <div class="content-container">
+            <h2>Contact Us</h2>
+            <div class="form-group">
+                <lable for="name">Name</lable>
+                <input type="text" name="name" placeholder="your name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" name="email" placeholder="you@example.com" required>
+            </div>
+            <div class="form-group">
+                <lable for="message">Message</lable>
+                <textarea name="message" placeholder="How can we help you?"></textarea>
+            </div>
+            <button type="submit">Send Message</button>
+        </div>
+
+    </form>
+
+</body>
+
+</html>
